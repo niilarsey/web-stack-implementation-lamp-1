@@ -351,7 +351,7 @@ In the vi editor, modify the default text to the following:
 DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm : 
 
 
-![](./images/replacetextvim.png)
+ # ![](./images/replacetextvim.png)
 
 
 Next, after saving and closing the file, you must reload Apache so the changes take effect. Use the following command:
@@ -364,17 +364,17 @@ $ vim /var/www/projectlamp/index.php
 
 This will open a blank file. Add the following text inside of the file:
 
-<?php
+# <?php
 phpinfo();
 
-![](./images/phpvim.png)
+# ![](./images/phpvim.png)
 
 
 Once you have completed this step, save and close the file.
 
 Refresh the page on your browser, and you will see a page similar to this (note: contents partially redacted for privacy):
 
-![](./images/phppageimage1.png)
+# ![](./images/phppageimage1.png)
 
 
 
