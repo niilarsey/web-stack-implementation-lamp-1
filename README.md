@@ -384,6 +384,5 @@ Don't forget to terminate your VM  and it's associated components in Azure porta
 
 $ sudo rm /var/www/projectlamp/index.php
 
-
-
+the is the end of 
 
